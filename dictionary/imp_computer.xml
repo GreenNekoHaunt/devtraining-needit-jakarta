@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Computer" max_length="40" name="imp_computer" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Assigned" max_length="40" name="u_assigned" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Assigned to" max_length="40" name="u_assigned_to" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CPU core count" max_length="40" name="u_cpu_core_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CPU manufacturer" max_length="40" name="u_cpu_manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CPU model" max_length="40" name="u_cpu_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CPU name" max_length="40" name="u_cpu_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CPU speed (GHz)" max_length="40" name="u_cpu_speed__ghz_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CPU type" max_length="40" name="u_cpu_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Department" max_length="40" name="u_department" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Manufacturer" max_length="40" name="u_manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Model ID" max_length="40" name="u_model_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Operating System" max_length="40" name="u_operating_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Purchased" max_length="40" name="u_purchased" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="RAM (GB)" max_length="40" name="u_ram__gb_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Room" max_length="40" name="u_room" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Screen size" max_length="40" name="u_screen_size" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Serial number" max_length="40" name="u_serial_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Street" max_length="40" name="u_street" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Warranty expiration" max_length="40" name="u_warranty_expiration" type="string"/>
+    </element>
+</database>
